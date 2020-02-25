@@ -1,0 +1,131 @@
+
+
+/* *{
+    box-sizing: border-box;
+} */
+
+
+body{
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#conteneur{
+    width: 960px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#colonne{
+    height: 100px;
+    margin: 20px;
+    border: 1px solid black;
+    line-height: 100px;
+}
+
+
+header{
+    text-align: center;
+    height: 120px;
+    color: white;
+    margin: 0 auto;
+    line-height: 120px;
+}
+
+nav{
+    height: 50px;
+    color: white;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+main{
+    height: 500px;
+}
+
+footer{
+    height: 80px;
+    color: white;
+    margin: 0 auto;
+    line-height: 80px;
+}
+
+/********** trois colonnes égales cotes à cotes **************/
+
+.col-1{width: 8.333333%;}
+.col-2{width: 16.666666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.333333%;}
+
+.col-5{width: 41.666666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333%;}
+.col-8{width: 66.666666%;}
+
+.col-9{width: 75%;}
+.col-10{width: 83.333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+
+/***************** les marges GAUCHE ************************/
+
+.marge-1{margin-left: 8.333333%;}
+.marge-2{margin-left: 16.666666%;}
+.marge-3{margin-left: 25%;}
+
+.marge-4{margin-left: 33.333333%;}
+.marge-5{margin-left: 41.666666%;}
+.marge-6{margin-left: 50%;}
+
+.marge-7{margin-left: 58.333333%;}
+.marge-8{margin-left: 66.666666%;}
+.marge-9{margin-left: 75%;}
+
+.marge-10{margin-left: 83.333333%;}
+.marge-11{margin-left: 91.666666%;}
+.marge-12{margin-left: 100%;}
+
+/******************* les couleurs ********************/
+
+.bleu{background: blue; min-height: 60px;}
+.rouge{background: red; min-height: 60px;}
+.vert{background: green; min-height: 60px;}
+.jaune{background: darkgoldenrod; min-height: 60px;}
+.marron{background: saddlebrown; min-height: 60px;}
+.noir{background: black; min-height: 60px;}
+
+.black{background: #581845;}
+.brown{background: #900C3F;}
+.grey{background: grey;}
+.white{background: white;}
+.light_brown{background: #C70039;}
+.skin{background: #F4E5B2;}
+.pink{background: pink;}
+.darker_green{background: #004B35;}
+.dark_green{background: #007C59;}
+.green{background: #00956B;}
+.light_green{background: #00C78E;}
+.yellow{background: #FFC300;}
+.cream{background: #FFE180;}
+.light_cream{background: #FFF8DF;}
+.darker_blue{background: #0065BF;}
+.dark_blue{background: #0086FF;}
+.blue{background: #60B3FF;}
+.light_blue{background: #0FD2FF;}
+.lighter_blue{background: #DFF0FF;}
+
+
