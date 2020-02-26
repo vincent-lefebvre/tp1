@@ -10,7 +10,6 @@ body{
     text-align: center;
 }
 
-
 .row{
     display: flex;
     flex-direction: row;
@@ -36,6 +35,9 @@ body{
     line-height: 100px;
 }
 
+#chaton{
+    margin: auto;
+}
 
 header{
     text-align: center;
@@ -62,6 +64,7 @@ footer{
     margin: 0 auto;
     line-height: 80px;
 }
+
 
 /********** trois colonnes égales cotes à cotes **************/
 
@@ -98,6 +101,7 @@ footer{
 .marge-10{margin-left: 83.333333%;}
 .marge-11{margin-left: 91.666666%;}
 .marge-12{margin-left: 100%;}
+
 
 /******************* les couleurs ********************/
 
